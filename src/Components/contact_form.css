@@ -1,0 +1,133 @@
+
+
+.contact_container_header{
+    background-color: var(--overlay);
+    padding-top: 250px;
+    width: 100%;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: auto;
+    height: 60vh;
+    text-transform: capitalize;
+    background-image: url("./Images/conatact-1.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    color: #fff;
+    
+
+}
+.header_small{
+    font-size: .9rem;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+
+
+
+
+
+
+.contact_container{
+    max-width: 1240px;
+    
+    margin: auto;
+    color: antiquewhite;
+    background-color: rgb(0,0,0,.6);;
+    border-radius: 20px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    
+}
+.contact_container_background{
+    /* background-image: url("Images/contact-2.jpg"); */
+    /* background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size:cover ; */
+
+}
+
+
+.contact_form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact_form_first{
+    margin-right: 2rem;
+    width: 20%;
+    
+}
+.contact_form_first p{
+    background-color: rgb(0,0,0,0.3);
+    padding: 1rem;
+    margin-bottom: .8rem;
+    padding-right: 2rem ;
+    border-radius: 10px;
+    
+
+}
+
+
+.contact_form_second{
+    width: 40%;
+}
+.contact_form{
+    
+    background-color:rgb(0,0,0,0.3);
+    border-style: solid;
+    padding: 1rem;
+    padding-right: 10rem;
+    color: white;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: .5rem;
+
+}
+.form_p{
+    margin-top: 2rem;
+}
+
+.contact_line{
+    display: block;
+    width: 2px;
+    height: 200px;
+    /* margin: 5px auto; */
+    background-color: antiquewhite;
+    margin-right: 2rem;
+  }
+
+
+
+.contact_button{
+    background-color: antiquewhite;
+    margin: 1rem 0;
+    width: 300px;
+    background-color: var(--secondary-color);
+    border:1px solid var(--secondary-color);
+    color: #333;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    
+    
+}
+
+.contact_button:hover{
+    background-color: var(--secondary-dark);
+    border: 1px solid var(--secondary-dark);
+}
+
+.contact_link{
+    color: antiquewhite;
+}
+.contact_link :hover{
+    color:antiquewhite;
+}

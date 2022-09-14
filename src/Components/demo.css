@@ -1,0 +1,15 @@
+.product_container{
+    display: flex;
+    margin: auto;
+    max-width: 1240px;
+    
+    justify-content: center;
+}
+.singel_IMAGE{
+    max-width:20%;
+}
+.image_{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

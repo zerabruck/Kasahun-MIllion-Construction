@@ -1,0 +1,80 @@
+.apple{
+    /* background-color: whitesmoke; */
+}
+.product_containerr{
+    /* background-color: var(--); */
+    
+
+    max-width: 1240px;
+    margin: auto;
+    display: grid;
+    /* grid-template-columns: repeat(3,.5fr); */
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+.product_containerr img{
+    
+    object-fit: cover;
+}
+.product_containerr p{
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.product_container_header{
+    
+    background-color: var(--overlay);
+    padding-top: 250px;
+    width: 100%;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: auto;
+    height: 60vh;
+    text-transform: capitalize;
+    background-image: url("./Images/hero.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    color: #fff;
+    
+
+}
+
+.product_card{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display:block;  
+    text-align: center;
+    padding-bottom: 20px;
+    /* max-width: 20rem; */
+    
+}
+.product_card img{
+    width: 100%;
+    width: 25vw; 
+    height: 60vh;  
+    border-radius: 10px;
+    
+}
+.product_card p{
+    text-align: left;
+    margin-left: 20px;
+   
+}
+@media screen and (max-width:940px) {
+    .product_containerr{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .product_card img{
+        width: 40vw;
+        height: 40vh;
+    }
+
+    
+}

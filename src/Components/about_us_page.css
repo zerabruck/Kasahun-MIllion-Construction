@@ -1,0 +1,200 @@
+.about_us_whole_container{
+    overflow: hidden;
+}
+
+
+.about_us_header_background{
+    background-image: url("Images/group_of_workers.jpg");
+    background-color: var(--overlay);
+    background-size: cover;
+    height: 80vh;
+    background-blend-mode: multiply;
+    
+
+}
+
+
+
+.about_us_header{
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 4rem;
+
+    
+
+
+}
+
+.about_us_title{
+    font-size: 8rem;
+    text-align: center;
+    font-weight: 700;
+    max-width: 900px;
+
+}
+
+.about_us_paragraph{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    max-width: 900px;
+
+}
+
+.about_us_second_part{
+    max-width: 900px;
+    margin: auto;
+    background-color: whitesmoke;
+    margin-top: 4rem;
+    box-shadow: 0 2px 10px rgb(0,0,0,.2);
+    margin-bottom: 3rem;
+    
+    
+
+}
+
+.about_us_second_part_header{
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.about_us_second_part_p{
+    margin-top: 4rem;
+    text-align: center;
+    font-style: italic;
+}
+
+
+.about_us_thrid_part_1{
+    background-color: rgba(41, 5, 5, 0.7);
+
+}
+.about_us_thrid_part_1 p{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 7rem;
+    
+    padding: 3rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+}
+
+.about_us_thrid_part_2{
+    background-color: rgba(68, 54, 3, 0.7);
+    
+    
+
+}
+.about_us_thrid_part_2 p{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 6rem;
+    margin: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+}
+
+
+
+
+
+
+.about_us_fourth_part_1{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+
+}
+.about_us_fourth_part_1_image{
+    width: 50%;
+    max-height: 500px;
+
+}
+.about_us_fourth_part_1_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+
+}
+.about_us_fourth_part_1_text {
+    max-width: 400px;
+    margin: auto;
+}
+.about_us_fourth_part_1_text_aim{
+    max-width: 400px;
+    margin: auto;
+
+}
+.about_us_fourth_part_1_text_goal{
+    max-width: 400px;
+    margin: auto;
+
+}
+
+.about_us_fourth_part_1_text_header{
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+
+
+}
+.about_us_fourth_part_1_text_p{
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:940px) {
+    .about_us_title{
+        font-size: 6rem;
+    }
+    .about_us_fourth_part_1{
+        flex-direction: column;
+    }
+    .about_us_fourth_part_1_image{
+        display: none;
+    }
+    .about_us_fourth_part_1_text{
+        color: white;
+        max-width: 100%;
+        background-image: url("Images/vison.jpg");
+        background-size: cover;
+        background-blend-mode: multiply;
+        /* background-color: var(--overlay); */
+
+    }
+    .about_us_fourth_part_1_text_aim{
+        color: white;
+        max-width: 100%;
+        background-image: url("Images/aim.jpg");
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: var(--overlay);
+
+    }
+    .about_us_fourth_part_1_text_goal{
+        color: white;
+        max-width: 100%;
+        background-image: url("Images/goal.jpg");
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: var(--overlay);
+
+    }
+    .about_us_fourth_part_1_text_p{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-bottom: 8rem;
+    }
+    
+
+    
+}

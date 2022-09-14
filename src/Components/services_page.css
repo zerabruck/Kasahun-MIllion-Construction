@@ -1,0 +1,114 @@
+.services_hader_backgournd{
+    background-image: url("Images/service-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-color: var(--overlay);
+    background-blend-mode: multiply;
+}
+.services_hader_backgournd p{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 5rem;
+    text-transform: capitalize;
+    
+    padding-top: 10rem;
+}
+.services_whole_card_container{
+    padding-top: 4rem;
+    background-color: whitesmoke;
+}
+
+
+
+.services_holder{
+    max-width: 1240px;
+    background-color: whitesmoke;
+    margin: auto;
+    display: flex;
+    
+}
+.services_card_holder{
+    width: 30%;
+    
+    background-color: white;
+    box-shadow:  0 2px 10px rgb(0,0,0,.2);
+    margin: 2rem;
+    border-radius: 10px;
+    
+    
+}
+.services_card_image_holder{
+    width: 100%;
+    
+    
+}
+.services_card_image_holder img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    max-height: 200px;
+    object-fit: cover;
+}
+
+
+.services_card_text_holder{
+    text-align: center;
+
+}
+.services_card_text_holder_header{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.services_card_text_holder_text{
+    color: rgb(0,0,0,.5);
+}
+
+
+.services_card_holder_bigger{
+    width: 30%;
+    background-color: white;
+    box-shadow:  0 2px 10px rgb(0,0,0,.2);
+    margin: 2rem;
+    border-radius: 10px;
+    margin-bottom: -45px;
+    
+
+}
+.services_card_holder_middle{
+    width: 30%;
+    
+    background-color: white;
+    box-shadow:  0 2px 10px rgb(0,0,0,.2);
+    margin: 2rem;
+    border-radius: 10px;
+    margin-top: 4rem;
+   
+
+}
+
+@media screen and (max-width:940px) {
+     
+    .services_card_holder{
+        margin: auto;
+        width: 80%;
+        margin-top: 4rem;
+    }
+    .services_card_holder_bigger{
+        width: 80%;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .services_card_holder_middle{
+        width: 80%;
+        margin: auto;
+        margin-top: 4rem;
+    } 
+
+    .services_holder{
+        flex-direction: column;
+    }
+    
+}

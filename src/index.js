@@ -15,6 +15,9 @@ import About_us_diplay from './Components/About_us_diplay';
 import Services_display from './Components/Services_display';
 import Heroo from './porfolio/Heroo';
 import ProfileService from './porfolio/ProfileService';
+import ProfileAbout from './porfolio/ProfileAbout';
+import PortfolioPage from './porfolio/PortfolioPage';
+import ProfileContact from './porfolio/ProfileContact';
 
 // import your route components too
 // import { Redirect } from 'react-router-dom';
@@ -34,7 +37,7 @@ root.render(
       <Route path="services" element={<Services_display />} />
 
       
-       <Route index element={<ProfileService/>} />
+       <Route index element={<ProfileContact/>} />
      
      {/* <Route index element={<Contact_form />} /> */}
         

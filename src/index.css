@@ -6,9 +6,9 @@
   --profile-bold:#E8871E;
   --profile-primary:#BA181B;
   --profile-dark:#161A1D;
-  --profile-light:#F5F3F4;
+  --profile-light:rgb(245, 243, 244,0.7);
   --overlay:rgb(0,0,0,.7);
-  --overlayy:rgb(0,0,0,.2);
+  --overlayy:rgb(0,0,0,.3);
 
 }
 

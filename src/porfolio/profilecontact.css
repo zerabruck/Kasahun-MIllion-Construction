@@ -1,0 +1,155 @@
+.profile-contact-whole-body{
+    background-color: var(--profile-dark);
+    color: var(--profile-light);
+}
+
+.profile-contact-upper-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-contact-upper-header{
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--profile-primary);
+
+}
+.profile-contact-upper-discription{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: rgb(255, 255, 255,0.5);
+    text-transform: uppercase;
+
+
+    
+}
+
+.profile-contact-outer-holder{
+    background-color: var(--profile-primary);
+    max-width: 1200px;
+    height: 250px;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.profile-contact-inner-holder{
+    box-shadow: 0px 2px 10px rgb(0, 0, 0,0.4);
+    margin: auto;
+   
+
+    position: absolute;
+    right: 23rem;
+    top: 10rem;
+    
+    
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    max-width: 900px;
+    background-color: var(--overlay);
+    padding: 1rem;
+}
+.profile-contact-icon-holder{
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--profile-primary);
+    font-size: 1.1rem;
+    width:2rem;
+    height: 2rem;
+    /* height: 4rem; */
+    /* padding: 1rem; */
+    border-radius: 50%;
+
+}
+.profile-contact-first-half-sections{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-contact-second-half{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.profile-contact-second-half input {
+    display: block;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* width: 110%; */
+    width: 30rem;
+    
+    max-width: 30rem;
+    max-height: 3rem;
+    /* margin: .5rem 0;  */
+    border-style: solid;
+    border-width: .2px;
+    border-color: rgb(0, 0, 0,0.3);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.profile-contact-second-half textarea{
+    border-radius: 5px;
+    display: block;
+    
+    width: 100%;
+    height: 100%;
+
+    max-width: 30rem;
+    max-height: 7rem;
+    border-style: solid;
+    border-width: .2px;
+    border-color: rgb(0, 0, 0,0.3);
+    padding: 1rem;
+}
+
+.profile-contact-second-half button{
+    padding: .6rem 2rem;
+    border-style: solid;
+    border-width: .2px;
+    border-color: rgb(0, 0, 0,0.3);
+    /* margin-top: 1rem; */
+    align-self: flex-start;
+    text-transform: uppercase;
+    background-color: var(--profile-bold);
+    font-family: inherit;
+    border-radius: 10px;
+}
+@media screen and (max-width:1200px) {
+    .profile-contact-inner-holder{
+        /* position:static; */
+        right: 10rem;
+    }
+    
+}
+@media screen and (max-width:800px){
+    .profile-contact-first-half-sections{
+        padding: 1rem;
+        flex-direction: column;
+        /* gap: rem; */
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .profile-contact-inner-holder{
+        flex-direction: column;
+        background-color: rgba(11, 20, 28, 0.7);
+        
+        
+        position: static;
+    }
+    .profile-contact-second-half input{
+        width: 100%;
+    }
+    .profile-contact-outer-holder{
+        background-color: inherit;
+    }
+
+
+}
